@@ -22,8 +22,20 @@ src/
 └── App.tsx  // 本体（linkPage.tsx を配置するだけ）
 ```
 
-## 環境
-TODO
+## 開発環境のセットアップ
 
-## 起動
-TODO
+Node.js v22 以上が必要です。
+
+### パッケージインストール
+
+```bash
+npm install
+```
+
+### 起動
+
+```bash
+npm run dev
+```
+
+起動後、http://localhost:5173 にアクセスしてください。 
