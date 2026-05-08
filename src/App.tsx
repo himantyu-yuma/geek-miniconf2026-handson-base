@@ -38,20 +38,18 @@ type LinkData = {
 
 /* === Step 3. リンクを表示させる */
 const SocialLinkSection = () => {
-  /*
-  const socialLinks: LinkData[] = [
-    {
-      title: 'X (Twitter)',
-      subtitle: '@geek_pjt',
-      url: 'https://x.com/geek_pjt',
-    },
-    {
-      title: 'GitHub',
-      subtitle: 'taro-giiku',
-      url: 'https://github.com',
-    },
-  ]
-  */
+  // const socialLinks: LinkData[] = [
+  //   {
+  //     title: 'X (Twitter)',
+  //     subtitle: '@geek_pjt',
+  //     url: 'https://x.com/geek_pjt',
+  //   },
+  //   {
+  //     title: 'GitHub',
+  //     subtitle: 'taro-giiku',
+  //     url: 'https://github.com',
+  //   },
+  // ]
 
   return <Flex direction='column' gap='md'>
     <Header title="SNS" as='h2' />
@@ -77,20 +75,18 @@ const SocialLinkSection = () => {
 
 /* Step Ex1. SNS以外のリンクも表示させる */
 const PersonalLinkSection = () => {
-  /*
-  const personalLinks: LinkData[] = [
-    {
-      title: 'ポートフォリオサイト',
-      subtitle: 'これまで作った作品',
-      url: 'https://portfolio.example.com',
-    },
-    {
-      title: '技術ブログ',
-      subtitle: 'エンジニアブログ',
-      url: 'https://taro-blog.example.com',
-    },
-  ]
-  */
+  // const personalLinks: LinkData[] = [
+  //   {
+  //     title: 'ポートフォリオサイト',
+  //     subtitle: 'これまで作った作品',
+  //     url: 'https://portfolio.example.com',
+  //   },
+  //   {
+  //     title: '技術ブログ',
+  //     subtitle: 'エンジニアブログ',
+  //     url: 'https://taro-blog.example.com',
+  //   },
+  // ]
 
   return <Flex direction='column' gap='md'>
     <Header title="Links" as='h2' />
