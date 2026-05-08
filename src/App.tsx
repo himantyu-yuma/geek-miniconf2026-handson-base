@@ -3,7 +3,7 @@ import { Header } from './uis/header/header'
 import { LinkCard } from './uis/linkCard/linkCard'
 import { Avatar } from './uis/avatar/avatar'
 import { Tag } from './uis/tag/tag'
-// import iconImage from './assets/icon.jpeg'
+// import iconImage from './assets/icon.jpg'
 
 /* === プロフィール部分 === */
 const ProfileSection = () => {
