@@ -11,7 +11,7 @@ const ProfileSection = () => {
     <div className="flex flex-col items-center text-center gap-3 pt-12 pb-2">
 
       {/* === Step 1. アイコンを表示させる */}
-      {/* <Avatar iconPath={iconImage} size={96} /> */}
+      {/* <Avatar iconPath={iconImage} initials='TG' size={96} /> */}
 
       {/* === Step 2. 自分の名前、所属、一言を表示させる === */}
       {/* 💡自分の情報に書き換えよう */}
